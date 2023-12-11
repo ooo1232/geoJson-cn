@@ -98,6 +98,6 @@ def get_children(code, level):
 
 tree_dic['items'] = get_children(100000, 1)
 
-save_text_to_file('area-code/_default', tree_dic)
+save_text_to_file('area-code/china-area', tree_dic)
 
 print("写入完成")
