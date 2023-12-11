@@ -1,0 +1,10 @@
+[
+  {
+    "label": "中国三级行政区域",
+    "areaPath": "mapdata/area-code/china-area.json"
+  },
+  {
+    "label": "世界地图-cn",
+    "areaPath": "mapdata/area-code/world-area-cn.json"
+  }
+]

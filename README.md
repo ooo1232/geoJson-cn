@@ -5,14 +5,21 @@ python爬虫获取中国-省-市-区县的geoJSON格式地图数据
 爬取日期： 2021-02-05
 
 对应文件夹解释:
-- 全国地图-包含子区域: data/country_full
-- 全国地图-外轮廓: data/country
-- 全国各省地图-包含子区域：data/province_full
-- 全国各省地图-外轮廓：data/province
-- 全国各市地图-包含子区域：data/city_full
-- 全国各市地图-外轮廓：data/city
-- 全国各区县地图-外轮廓：data/county
-- 全国省市区县所对应行政区划代码以及中心点的坐标：location.json (方便用于echarts上显示某个点的位置)可直接用于echarts地图的显示
-  
+```txt
+mapdata
+├── area-code
+│   ├── index.json 区域数据索引
+│   ├── china-area.json 中国地图三级行政区域地图结构信息
+│   └── world-area-cn.json 世界地图数据结构定义
+├── china
+│   ├── china.json 中国地区包含子区域
+│   ├── city 各市地图-包含子区域
+│   └── province 各省地图-包含子区域
+├── world
+│   ├── world-cn.json 世界地图，按国家划分，中文国家地名
+│   └── world-continents.json 世界地图，按大洲划分，英文大洲名
+└── infos.json 中国地区区域列表
+
+```
 
 数据来源： http://datav.aliyun.com/tools/atlas/

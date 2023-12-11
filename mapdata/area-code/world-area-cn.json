@@ -1,0 +1,6 @@
+{
+  "level": 0,
+  "name": "世界地图",
+  "code": "world",
+  "dataPath": "mapdata/word/world-cn.json"
+}
